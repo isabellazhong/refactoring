@@ -15,8 +15,8 @@ public final class Constants {
     public static final int COMEDY_OVER_BASE_CAPACITY_AMOUNT = 10000;
     public static final int COMEDY_OVER_BASE_CAPACITY_PER_PERSON = 500;
     // tragedy amount constants
-    public static final int TRAGEDY_BASE_AMOUNT = 4000;
     public static final int TRAGEDY_AUDIENCE_THRESHOLD = 30;
+    public static final int TRAGEDY_BASE_AMOUNT = 40000;
     public static final int TRAGEDY_OVER_BASE_CAPACITY_PER_PERSON = 1000;
     // formatting constants
     public static final int PERCENT_FACTOR = 100;
@@ -31,8 +31,4 @@ public final class Constants {
     public static final int PASTORAL_AUDIENCE_THRESHOLD = 20;
     public static final int PASTORAL_VOLUME_CREDIT_THRESHOLD = 20;
 
-
-    private Constants() {
-
-    }
 }
